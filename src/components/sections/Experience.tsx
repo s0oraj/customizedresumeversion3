@@ -25,13 +25,13 @@ export function Experience() {
             </div>
             <div className="flex justify-between items-start mb-2">
               <p className="text-sm text-gray-300">{exp.position}</p>
-              <div className="flex items-center text-xs text-gray-400">
+              <div className="flex items-center text-gray-400">
                 <MapPinIcon size={12} className="mr-1" />
                 <span>{exp.location}</span>
               </div>
             </div>
             <ul className="space-y-1 mt-2">
-              {exp.points.map((point, idx) => <li key={idx} className="flex items-start text-xs text-gray-400">
+              {exp.points.map((point, idx) => <li key={idx} className="flex items-start text-gray-400">
                   <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
                   <span dangerouslySetInnerHTML={{
               __html: point
