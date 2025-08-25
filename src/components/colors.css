@@ -1,48 +1,63 @@
-/* Company Theme Colors - Easy to swap for different companies */
+/* 
+RESUME COLOR THEME SYSTEM
+Easy company-specific color customization
+Just change the hex values below for different companies
+*/
+
 :root {
-  /* Primary Brand Colors */
-  --brand-primary: #5DC22D;        /* Main company color (Cohesity green) */
-  --brand-primary-text: #000000;   /* Text color on primary background (black on green) */
+  /* === BRAND & ACCENT COLORS === */
+  --resume-accent-primary: #5DC22D;        /* Main highlight color (currently Cohesity green) */
+  --resume-accent-on-primary: #000000;     /* Text color on accent background */
   
-  /* Background Colors */
-  --bg-main: #000000;              /* Main page background (black) */
-  --bg-card: #1f2937;              /* Card backgrounds (gray-900) */
-  --bg-hover: #374151;             /* Hover states (gray-700) */
-  --bg-accent: #111827;            /* Accent backgrounds (gray-800) */
+  /* === BACKGROUND COLORS === */
+  --resume-bg-page: #000000;               /* Main page/body background */
+  --resume-bg-section: #1f2937;           /* Section/card backgrounds */
+  --resume-bg-hover: #374151;             /* Hover states for interactive elements */
+  --resume-bg-subtle: #111827;            /* Subtle background accents */
   
-  /* Text Colors */
-  --text-primary: #f9fafb;         /* Primary text (gray-100) */
-  --text-secondary: #e5e7eb;       /* Secondary text (gray-200) */
-  --text-tertiary: #d1d5db;        /* Tertiary text (gray-300) */
-  --text-muted: #9ca3af;           /* Muted text (gray-400) */
-  --text-subtle: #6b7280;          /* Subtle text (gray-500) */
+  /* === TEXT COLORS === */
+  --resume-text-heading: #f9fafb;         /* Main headings and titles */
+  --resume-text-body: #e5e7eb;            /* Regular body text */
+  --resume-text-secondary: #d1d5db;       /* Secondary information */
+  --resume-text-muted: #9ca3af;           /* Less important text */
+  --resume-text-subtle: #6b7280;          /* Very subtle text (dates, etc.) */
   
-  /* Border Colors */
-  --border-primary: #1f2937;       /* Main borders (gray-800) */
-  --border-accent: #374151;        /* Accent borders (gray-700) */
+  /* === BORDER COLORS === */
+  --resume-border-primary: #1f2937;       /* Main section dividers */
+  --resume-border-accent: #374151;        /* Accent borders */
 }
 
 /* 
-COMPANY THEME EXAMPLES:
-Just replace the values above for different companies
+COMPANY THEME EXAMPLES - Just replace the values above:
 
-AMAZON:
---brand-primary: #FF9900;
---bg-main: #232F3E;
---bg-card: #37475A;
+=== AMAZON ===
+--resume-accent-primary: #FF9900;
+--resume-bg-page: #232F3E;
+--resume-bg-section: #37475A;
 
-GOOGLE:
---brand-primary: #4285F4;
---bg-main: #1a1a1a;
---bg-card: #2d2d2d;
+=== GOOGLE ===
+--resume-accent-primary: #4285F4;
+--resume-bg-page: #1a1a1a;
+--resume-bg-section: #2d2d2d;
 
-MICROSOFT:
---brand-primary: #0078D4;
---bg-main: #1e1e1e;
---bg-card: #2d2d30;
+=== MICROSOFT ===
+--resume-accent-primary: #0078D4;
+--resume-bg-page: #1e1e1e;
+--resume-bg-section: #2d2d30;
 
-NETFLIX:
---brand-primary: #E50914;
---bg-main: #141414;
---bg-card: #2f2f2f;
+=== NETFLIX ===
+--resume-accent-primary: #E50914;
+--resume-bg-page: #141414;
+--resume-bg-section: #2f2f2f;
+
+=== SPOTIFY ===
+--resume-accent-primary: #1DB954;
+--resume-bg-page: #121212;
+--resume-bg-section: #282828;
+
+=== APPLE ===
+--resume-accent-primary: #007AFF;
+--resume-bg-page: #1c1c1e;
+--resume-bg-section: #2c2c2e;
 */
+

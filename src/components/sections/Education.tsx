@@ -14,7 +14,7 @@ export function Education() {
               <p className="text-xs text-gray-500">Bhubaneshwar, Odisha</p>
             </div>
             <div className="text-right">
-              <span className="text-[#5DC22D] text-sm">06/2024</span>
+              <span className="text-sm" style={{ color: 'var(--resume-accent-primary)' }}>06/2024</span>
               <div className="bg-[#5DC22D] text-black text-xs px-2 py-0.5 rounded mt-1 font-medium">
                 CGPA: 8.5
               </div>
