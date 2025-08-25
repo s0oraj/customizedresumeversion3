@@ -20,7 +20,7 @@ export function Hackathons() {
           </p>
         </div>
         <ul className="space-y-1">
-          <li className="flex items-start text-xs text-gray-400">
+          <li className="flex items-start text-gray-400">
             <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
             <span>
               Formulated an{' '}
@@ -43,7 +43,7 @@ export function Hackathons() {
               to enhance packaging and customer satisfaction.
             </span>
           </li>
-          <li className="flex items-start text-xs text-gray-400">
+          <li className="flex items-start text-gray-400">
             <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
             <span>
               Optimized{' '}

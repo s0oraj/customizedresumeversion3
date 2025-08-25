@@ -25,7 +25,7 @@ export function AndroidDev() {
             Android Studio, Java, OpenCV, E2EE, AES, Alan-AI
           </p>
           <ul className="space-y-1">
-            <li className="flex items-start text-xs text-gray-400">
+            <li className="flex items-start text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Utilized{' '}
@@ -39,7 +39,7 @@ export function AndroidDev() {
                 .
               </span>
             </li>
-            <li className="flex items-start text-xs text-gray-400">
+            <li className="flex items-start text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Pioneered an in-app{' '}
@@ -50,7 +50,7 @@ export function AndroidDev() {
                 <span className="font-semibold text-[#5DC22D]">Alan-AI</span>.
               </span>
             </li>
-            <li className="flex items-start text-xs text-gray-400">
+            <li className="flex items-start text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Created{' '}
@@ -91,7 +91,7 @@ export function AndroidDev() {
             Python, TensorFlow Lite, VGG19, Android Java
           </p>
           <ul className="space-y-1">
-            <li className="flex items-start text-xs text-gray-400">
+            <li className="flex items-start text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Built{' '}
@@ -110,7 +110,7 @@ export function AndroidDev() {
                 .
               </span>
             </li>
-            <li className="flex items-start text-xs text-gray-400">
+            <li className="flex items-start text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Implemented complete ML pipeline from{' '}
@@ -123,7 +123,7 @@ export function AndroidDev() {
                 .
               </span>
             </li>
-            <li className="flex items-start text-xs text-gray-400">
+            <li className="flex items-start text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Developed Android app using{' '}

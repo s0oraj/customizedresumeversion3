@@ -32,7 +32,7 @@ export function Research() {
             Machine Learning, CNN, Transfer Learning, Python
           </p>
           <ul className="space-y-1">
-            <li className="flex items-start text-xs text-gray-400">
+            <li className="flex items-start text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Developing an{' '}
@@ -49,7 +49,7 @@ export function Research() {
                 detection.
               </span>
             </li>
-            <li className="flex items-start text-xs text-gray-400">
+            <li className="flex items-start text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Conducted research at{' '}
@@ -90,7 +90,7 @@ export function Research() {
             Image Processing, DWT, SWT, CLAHE, Python
           </p>
           <ul className="space-y-1">
-            <li className="flex items-start text-xs text-gray-400">
+            <li className="flex items-start text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Employed{' '}
@@ -112,7 +112,7 @@ export function Research() {
                 for hippocampus-based analysis.
               </span>
             </li>
-            <li className="flex items-start text-xs text-gray-400">
+            <li className="flex items-start text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Achieved{' '}

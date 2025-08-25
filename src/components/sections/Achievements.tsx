@@ -32,18 +32,15 @@ export function Achievements() {
           </div>
           <p className="text-gray-400 mt-1">
             Ranked{' '}
-            <span className="font-semibold text-[#5DC22D]">Top 9.53%</span> of
-            all contestants on LeetCode with a{' '}
+            <span className="font-semibold text-[#5DC22D]">Top 9.53%</span> on LeetCode with a{' '}
             <span className="font-semibold text-[#5DC22D]">
               contest rating of 1755
-            </span>
-          </p>
-          <div className="flex flex-wrap gap-1 mt-1">
-            <a href="https://leetcode.com/u/s0oraj/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-1.5 py-0.5 rounded">
+            </span>{' '}
+            <a href="https://leetcode.com/u/s0oraj/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-1.5 py-0.5 rounded ml-2">
               <ExternalLinkIcon size={8} className="mr-1 text-[#5DC22D]" />
-              Username: s0oraj
+              Link
             </a>
-          </div>
+          </p>
           <p className="text-gray-400 mt-1">
             Ranked <span className="font-semibold text-[#5DC22D]">AIR 688</span>{' '}
             out of{' '}

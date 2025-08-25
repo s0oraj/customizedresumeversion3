@@ -1,7 +1,8 @@
 import React from 'react';
 import { AtSignIcon, GithubIcon, LinkedinIcon, PhoneIcon, MapPinIcon } from 'lucide-react';
+
 export function Header() {
-  return <div className="border-b border-gray-800 pb-4">
+  return <div>
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
         <div className="flex items-center">
           {/* Cohesity Logo */}
@@ -56,24 +57,28 @@ export function Header() {
             </div>
           </div>
         </div>
-        {/* Education Column */}
+
+{/* Education Column */}
         <div className="bg-gray-900 p-3 rounded">
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-gray-200 font-semibold">
                 C.V. Raman Global University
               </h3>
-              <p className="text-sm text-gray-400">B.Tech in CS & IT</p>
-              <p className="text-xs text-gray-500">Bhubaneshwar, Odisha</p>
+              <div className="flex items-center gap-3">
+                <p className="text-sm text-gray-400">B.Tech in CS & IT</p>
+                <div className="bg-[#5DC22D] text-black text-xs px-2 py-0.5 rounded font-medium">
+                  CGPA: 8.5
+                </div>
+              </div>
             </div>
             <div className="text-right">
               <span className="text-[#5DC22D] text-sm">06/2024</span>
-              <div className="bg-[#5DC22D] text-black text-xs px-2 py-0.5 rounded mt-1 font-medium">
-                CGPA: 8.5
-              </div>
+              <p className="text-xs text-gray-500 mt-1">Bhubaneshwar, Odisha</p>
             </div>
           </div>
         </div>
+
       </div>
     </div>;
 }
