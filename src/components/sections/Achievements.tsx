@@ -13,7 +13,7 @@ export function Achievements() {
             </h3>
             <span className="text-[#5DC22D] text-xs">01/2024</span>
           </div>
-          <p className="text-xs text-gray-400 mt-1">
+          <p className="text-gray-400 mt-1">
             Offered a Research internship by Prof. Tushar Sandhan from IIT
             Kanpur to work on{' '}
             <span className="font-semibold text-[#5DC22D]">
@@ -30,7 +30,7 @@ export function Achievements() {
             </h3>
             <span className="text-[#5DC22D] text-xs">05/2024</span>
           </div>
-          <p className="text-xs text-gray-400 mt-1">
+          <p className="text-gray-400 mt-1">
             Ranked{' '}
             <span className="font-semibold text-[#5DC22D]">Top 9.53%</span> of
             all contestants on LeetCode with a{' '}
@@ -44,7 +44,7 @@ export function Achievements() {
               Username: s0oraj
             </a>
           </div>
-          <p className="text-xs text-gray-400 mt-1">
+          <p className="text-gray-400 mt-1">
             Ranked <span className="font-semibold text-[#5DC22D]">AIR 688</span>{' '}
             out of{' '}
             <span className="font-semibold text-[#5DC22D]">
@@ -63,7 +63,7 @@ export function Achievements() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <p className="text-xs text-gray-400 mt-1">
+              <p className="text-gray-400 mt-1">
                 Ranked <span className="font-semibold text-[#5DC22D]">228</span>{' '}
                 globally out of{' '}
                 <span className="font-semibold text-[#5DC22D]">30,000+</span>{' '}
@@ -80,7 +80,7 @@ export function Achievements() {
               </div>
             </div>
             <div>
-              <p className="text-xs text-gray-400 mt-1 md:mt-0">
+              <p className="text-gray-400 mt-1 md:mt-0">
                 Presented at the{' '}
                 <span className="font-semibold text-[#5DC22D]">
                   14th ICCCNT conference 2023
