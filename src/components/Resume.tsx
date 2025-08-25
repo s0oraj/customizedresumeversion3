@@ -39,7 +39,8 @@ export function Resume() {
       </div>
       {/* Add extra space at the bottom to extend page height, adjust if 2nd page gets new stuff */}
       {/* 695 works for 60% a4 */}
-      <div className="w-full" style={{ height: '695px' }}></div>
+      {/* 735 works for 84% a3 */}
+      <div className="w-full" style={{ height: '735px' }}></div>
 
 
     </div>;
