@@ -36,7 +36,7 @@ export function Projects() {
               {project.technologies}
             </div>
             <ul className="space-y-1">
-              {project.points.map((point, idx) => <li key={idx} className="flex items-start text-xs text-gray-400">
+              {project.points.map((point, idx) => <li key={idx} className="flex items-start text-gray-400">
                   <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
                   <span dangerouslySetInnerHTML={{
               __html: point
