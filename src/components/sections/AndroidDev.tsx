@@ -1,13 +1,15 @@
 import React from 'react';
 import { SectionTitle } from '../ui/SectionTitle';
 import { ExternalLinkIcon, GithubIcon } from 'lucide-react';
+
 export function AndroidDev() {
-  return <div>
+  return (
+    <div>
       <SectionTitle>Android Development</SectionTitle>
       <div className="space-y-4 mt-3">
         <div className="bg-gray-900 p-4 rounded">
           <div className="flex justify-between items-start">
-            <h3 className="text-gray-200 font-semibold">
+            <h3 className="text-lg text-gray-200 font-semibold">
               Animus - Cryptography Based Social Media App
             </h3>
             <div className="flex gap-1">
@@ -21,11 +23,11 @@ export function AndroidDev() {
               </a>
             </div>
           </div>
-          <p className="text-xs text-[#5DC22D] mt-1 mb-2">
+          <p className="text-[#5DC22D] italic mt-1 mb-2">
             Android Studio, Java, OpenCV, E2EE, AES, Alan-AI
           </p>
           <ul className="space-y-1">
-            <li className="flex items-start text-gray-400">
+            <li className="flex items-start text-lg text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Utilized{' '}
@@ -39,7 +41,7 @@ export function AndroidDev() {
                 .
               </span>
             </li>
-            <li className="flex items-start text-gray-400">
+            <li className="flex items-start text-lg text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Pioneered an in-app{' '}
@@ -50,7 +52,7 @@ export function AndroidDev() {
                 <span className="font-semibold text-[#5DC22D]">Alan-AI</span>.
               </span>
             </li>
-            <li className="flex items-start text-gray-400">
+            <li className="flex items-start text-lg text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Created{' '}
@@ -71,9 +73,10 @@ export function AndroidDev() {
             </li>
           </ul>
         </div>
+
         <div className="bg-gray-900 p-4 rounded">
           <div className="flex justify-between items-start">
-            <h3 className="text-gray-200 font-semibold">
+            <h3 className="text-lg text-gray-200 font-semibold">
               SangeetAI - Emotion-Based Music Recommender
             </h3>
             <div className="flex gap-1">
@@ -87,11 +90,11 @@ export function AndroidDev() {
               </a>
             </div>
           </div>
-          <p className="text-xs text-[#5DC22D] mt-1 mb-2">
+          <p className="text-[#5DC22D] italic mt-1 mb-2">
             Python, TensorFlow Lite, VGG19, Android Java
           </p>
           <ul className="space-y-1">
-            <li className="flex items-start text-gray-400">
+            <li className="flex items-start text-lg text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Built{' '}
@@ -110,7 +113,7 @@ export function AndroidDev() {
                 .
               </span>
             </li>
-            <li className="flex items-start text-gray-400">
+            <li className="flex items-start text-lg text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Implemented complete ML pipeline from{' '}
@@ -123,7 +126,7 @@ export function AndroidDev() {
                 .
               </span>
             </li>
-            <li className="flex items-start text-gray-400">
+            <li className="flex items-start text-lg text-gray-400">
               <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
               <span>
                 Developed Android app using{' '}
@@ -136,5 +139,6 @@ export function AndroidDev() {
           </ul>
         </div>
       </div>
-    </div>;
+    </div>
+  );
 }

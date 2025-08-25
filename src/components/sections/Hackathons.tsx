@@ -1,13 +1,15 @@
 import React from 'react';
 import { SectionTitle } from '../ui/SectionTitle';
 import { ExternalLinkIcon } from 'lucide-react';
+
 export function Hackathons() {
-  return <div>
+  return (
+    <div>
       <SectionTitle>Hackathons</SectionTitle>
       <div className="bg-gray-900 p-4 rounded mt-3">
         <div className="mb-2">
           <div className="flex justify-between items-start">
-            <h3 className="text-gray-200 font-semibold">
+            <h3 className="text-lg text-gray-200 font-semibold">
               NLP Regression: Amazon Product Length Prediction
             </h3>
             <a href="https://www.kaggle.com/code/umitsahoo/nlp-with-regression" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-1.5 py-0.5 rounded">
@@ -15,12 +17,12 @@ export function Hackathons() {
               Code
             </a>
           </div>
-          <p className="text-xs text-[#5DC22D] mt-1">
+          <p className="text-[#5DC22D] italic mt-1">
             Natural Language Processing, Regression Analysis, Python, Keras
           </p>
         </div>
         <ul className="space-y-1">
-          <li className="flex items-start text-gray-400">
+          <li className="flex items-start text-lg text-gray-400">
             <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
             <span>
               Formulated an{' '}
@@ -43,7 +45,7 @@ export function Hackathons() {
               to enhance packaging and customer satisfaction.
             </span>
           </li>
-          <li className="flex items-start text-gray-400">
+          <li className="flex items-start text-lg text-gray-400">
             <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
             <span>
               Optimized{' '}
@@ -60,5 +62,6 @@ export function Hackathons() {
           </li>
         </ul>
       </div>
-    </div>;
+    </div>
+  );
 }
