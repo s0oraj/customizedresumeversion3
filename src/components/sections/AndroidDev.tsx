@@ -1,71 +1,72 @@
 import React from 'react';
 import { SectionTitle } from '../ui/SectionTitle';
 import { ExternalLinkIcon, GithubIcon } from 'lucide-react';
+import { theme } from '../../theme/tailwind-var';
 
 export function AndroidDev() {
   return (
     <div>
       <SectionTitle>Android Development</SectionTitle>
       <div className="space-y-4 mt-3">
-        <div className="bg-gray-900 p-4 rounded">
+        <div className={`${theme.bgCard} p-4 rounded`}>
           <div className="flex justify-between items-start">
-            <h3 className="text-lg text-gray-200 font-semibold">
+            <h3 className={`text-lg ${theme.textBody} font-semibold`}>
               Animus - Cryptography Based Social Media App
             </h3>
             <div className="flex gap-1">
-              <a href="https://github.com/s0oraj/Animus" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-1.5 py-0.5 rounded">
-                <ExternalLinkIcon size={8} className="mr-1 text-[#5DC22D]" />
+              <a href="https://github.com/s0oraj/Animus" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+                <ExternalLinkIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
                 Demo
               </a>
-              <a href="https://github.com/s0oraj/animus" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-1.5 py-0.5 rounded">
-                <GithubIcon size={8} className="mr-1 text-[#5DC22D]" />
+              <a href="https://github.com/s0oraj/animus" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+                <GithubIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
                 Repo
               </a>
             </div>
           </div>
-          <p className="text-[#5DC22D] italic mt-1 mb-2">
+          <p className={`${theme.brandPrimary} italic mt-1 mb-2`}>
             Android Studio, Java, OpenCV, E2EE, AES, Alan-AI
           </p>
           <ul className="space-y-1">
-            <li className="flex items-start text-lg text-gray-400">
-              <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
+            <li className={`flex items-start text-lg ${theme.textMuted}`}>
+              <span className={`${theme.brandPrimary} mr-2 mt-0.5`}>•</span>
               <span>
                 Utilized{' '}
-                <span className="font-semibold text-[#5DC22D]">
+                <span className={`font-semibold ${theme.brandPrimary}`}>
                   Advanced Encryption Standard (AES)
                 </span>{' '}
                 algorithm to make chats{' '}
-                <span className="font-semibold text-[#5DC22D]">
+                <span className={`font-semibold ${theme.brandPrimary}`}>
                   End-to-End Encrypted (E2EE)
                 </span>
                 .
               </span>
             </li>
-            <li className="flex items-start text-lg text-gray-400">
-              <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
+            <li className={`flex items-start text-lg ${theme.textMuted}`}>
+              <span className={`${theme.brandPrimary} mr-2 mt-0.5`}>•</span>
               <span>
                 Pioneered an in-app{' '}
-                <span className="font-semibold text-[#5DC22D]">
+                <span className={`font-semibold ${theme.brandPrimary}`}>
                   AI Voice Assistant
                 </span>{' '}
                 allowing users to navigate the app using voice commands, via{' '}
-                <span className="font-semibold text-[#5DC22D]">Alan-AI</span>.
+                <span className={`font-semibold ${theme.brandPrimary}`}>Alan-AI</span>.
               </span>
             </li>
-            <li className="flex items-start text-lg text-gray-400">
-              <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
+            <li className={`flex items-start text-lg ${theme.textMuted}`}>
+              <span className={`${theme.brandPrimary} mr-2 mt-0.5`}>•</span>
               <span>
                 Created{' '}
-                <span className="font-semibold text-[#5DC22D]">
+                <span className={`font-semibold ${theme.brandPrimary}`}>
                   Avatar Creator
                 </span>{' '}
                 using{' '}
-                <span className="font-semibold text-[#5DC22D]">
+                <span className={`font-semibold ${theme.brandPrimary}`}>
                   Google ML Kit
                 </span>{' '}
-                and <span className="font-semibold text-[#5DC22D]">OpenCV</span>{' '}
+                and <span className={`font-semibold ${theme.brandPrimary}`}>OpenCV</span>{' '}
                 for{' '}
-                <span className="font-semibold text-[#5DC22D]">
+                <span className={`font-semibold ${theme.brandPrimary}`}>
                   image segmentation
                 </span>{' '}
                 and cartoonization.
@@ -74,65 +75,65 @@ export function AndroidDev() {
           </ul>
         </div>
 
-        <div className="bg-gray-900 p-4 rounded">
+        <div className={`${theme.bgCard} p-4 rounded`}>
           <div className="flex justify-between items-start">
-            <h3 className="text-lg text-gray-200 font-semibold">
+            <h3 className={`text-lg ${theme.textBody} font-semibold`}>
               SangeetAI - Emotion-Based Music Recommender
             </h3>
             <div className="flex gap-1">
-              <a href="https://github.com/s0oraj/SangeetAI" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-1.5 py-0.5 rounded">
-                <ExternalLinkIcon size={8} className="mr-1 text-[#5DC22D]" />
+              <a href="https://github.com/s0oraj/SangeetAI" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+                <ExternalLinkIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
                 Demo
               </a>
-              <a href="https://github.com/s0oraj/SangeetAI" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-xs bg-gray-800 hover:bg-gray-700 text-gray-300 px-1.5 py-0.5 rounded">
-                <GithubIcon size={8} className="mr-1 text-[#5DC22D]" />
+              <a href="https://github.com/s0oraj/SangeetAI" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+                <GithubIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
                 Repo
               </a>
             </div>
           </div>
-          <p className="text-[#5DC22D] italic mt-1 mb-2">
+          <p className={`${theme.brandPrimary} italic mt-1 mb-2`}>
             Python, TensorFlow Lite, VGG19, Android Java
           </p>
           <ul className="space-y-1">
-            <li className="flex items-start text-lg text-gray-400">
-              <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
+            <li className={`flex items-start text-lg ${theme.textMuted}`}>
+              <span className={`${theme.brandPrimary} mr-2 mt-0.5`}>•</span>
               <span>
                 Built{' '}
-                <span className="font-semibold text-[#5DC22D]">
+                <span className={`font-semibold ${theme.brandPrimary}`}>
                   VGG19 CNN model
                 </span>{' '}
                 with transfer learning on{' '}
-                <span className="font-semibold text-[#5DC22D]">
+                <span className={`font-semibold ${theme.brandPrimary}`}>
                   35K+ FER2013 images
                 </span>{' '}
                 for 7-class emotion detection, achieving optimized mobile
                 inference through{' '}
-                <span className="font-semibold text-[#5DC22D]">
+                <span className={`font-semibold ${theme.brandPrimary}`}>
                   TensorFlow Lite conversion
                 </span>
                 .
               </span>
             </li>
-            <li className="flex items-start text-lg text-gray-400">
-              <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
+            <li className={`flex items-start text-lg ${theme.textMuted}`}>
+              <span className={`${theme.brandPrimary} mr-2 mt-0.5`}>•</span>
               <span>
                 Implemented complete ML pipeline from{' '}
-                <span className="font-semibold text-[#5DC22D]">Kaggle API</span>{' '}
+                <span className={`font-semibold ${theme.brandPrimary}`}>Kaggle API</span>{' '}
                 to Android deployment with augmentation (rotation/flip),
                 normalization, and{' '}
-                <span className="font-semibold text-[#5DC22D]">
+                <span className={`font-semibold ${theme.brandPrimary}`}>
                   Adam optimizer with early stopping
                 </span>
                 .
               </span>
             </li>
-            <li className="flex items-start text-lg text-gray-400">
-              <span className="text-[#5DC22D] mr-2 mt-0.5">•</span>
+            <li className={`flex items-start text-lg ${theme.textMuted}`}>
+              <span className={`${theme.brandPrimary} mr-2 mt-0.5`}>•</span>
               <span>
                 Developed Android app using{' '}
-                <span className="font-semibold text-[#5DC22D]">CameraView</span>{' '}
+                <span className={`font-semibold ${theme.brandPrimary}`}>CameraView</span>{' '}
                 and{' '}
-                <span className="font-semibold text-[#5DC22D]">JCPlayer</span>{' '}
+                <span className={`font-semibold ${theme.brandPrimary}`}>JCPlayer</span>{' '}
                 for real-time emotion-based music recommendations.
               </span>
             </li>

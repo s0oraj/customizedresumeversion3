@@ -8,8 +8,10 @@ import { AdditionalTechnicalExperience } from './sections/AdditionalTechnicalExp
 import { Research } from './sections/Research';
 import { Hackathons } from './sections/Hackathons';
 import { AndroidDev } from './sections/AndroidDev';
+import { theme } from '../theme/tailwind-var';
+
 export function Resume() {
-  return <div className="w-full  mx-auto text-gray-200 py-6 px-4 sm:px-6">
+  return <div className={`w-full mx-auto ${theme.textBody} py-6 px-4 sm:px-6`}>
       <Header />
       <div className="mt-6">
         <div className="mb-6">
