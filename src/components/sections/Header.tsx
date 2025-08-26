@@ -8,14 +8,14 @@ export function Header() {
         <div className="flex items-center">
           {/* Cohesity Logo */}
           <div className="mr-4">
-            <img src="/pasted-image.png" alt="Cohesity Logo" className="h-10 mb-3" />
+            <img src="/image.png" alt="Company Logo" className="h-10 mb-3" />
           </div>
           <h1 className={`text-3xl font-bold ${theme.textHeading} uppercase tracking-wider`}>
             SURAJ SINGH
           </h1>
         </div>
         <div className={`${theme.bgBrandPrimary} ${theme.textBlack} px-3 py-1 rounded font-medium text-sm mt-2 md:mt-0`}>
-          SDET Application
+          SDE Application
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">

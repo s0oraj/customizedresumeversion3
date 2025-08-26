@@ -1,5 +1,8 @@
 // src/theme/tailwind-var.js
 
+
+// CURRENT ACTIVE THEME - Change this line to switch themes!
+
 // COHESITY THEME (Current)
 export const colors = {
   // Text Colors (EXISTING - KEPT AS IS)
@@ -118,5 +121,4 @@ export const googleColors = {
   uiBrandTertiary: 'text-[#3367D6]',    // Darker blue
 };
 
-// CURRENT ACTIVE THEME - Change this line to switch themes!
-export const theme = colors; // Change to amazonColors, googleColors, etc.
+export const theme = amazonColors; // Change to amazonColors, googleColors, etc.
