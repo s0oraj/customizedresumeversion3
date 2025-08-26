@@ -11,6 +11,7 @@ export const colors = {
   textBlack: 'text-black',
   
   // Background Colors
+  bgMain: 'bg-black',           // Main app background
   bgCard: 'bg-gray-900',
   bgSubtle: 'bg-gray-800', 
   bgHover: 'bg-gray-700',
@@ -33,6 +34,7 @@ export const amazonColors = {
   textSubtle: 'text-gray-400',
   textBlack: 'text-black',
   
+  bgMain: 'bg-[#232F3E]',       // Amazon dark blue background
   bgCard: 'bg-[#37475A]',
   bgSubtle: 'bg-[#2D3748]',
   bgHover: 'bg-[#4A5568]',
@@ -53,6 +55,7 @@ export const googleColors = {
   textSubtle: 'text-gray-400',
   textBlack: 'text-black',
   
+  bgMain: 'bg-[#1a1a1a]',       // Google dark background
   bgCard: 'bg-[#2d2d2d]',
   bgSubtle: 'bg-[#242424]',
   bgHover: 'bg-[#3d3d3d]',
