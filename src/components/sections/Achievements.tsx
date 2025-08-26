@@ -14,7 +14,7 @@ export function Achievements() {
             <h3 className={`text-lg ${theme.textBody} font-semibold`}>
               IIT Kanpur Research Internship Offer
             </h3>
-            <span className={`text-xs ${theme.brandPrimary}`}>01/2024</span>
+            <span className={`text-sm ${theme.brandPrimary}`}>01/2024</span>
           </div>
           <div className={`flex items-start text-lg ${theme.textMuted} mt-1`}>
             <span className={`mr-2 mt-0.5 ${theme.brandPrimary}`}>•</span>
@@ -35,7 +35,7 @@ export function Achievements() {
             <h3 className={`text-lg ${theme.textBody} font-semibold`}>
               Coding & Competitive Exams
             </h3>
-            <span className={`text-xs ${theme.brandPrimary}`}>05/2024</span>
+            <span className={`text-sm ${theme.brandPrimary}`}>05/2024</span>
           </div>
           <div className="space-y-1 mt-1">
             <div className={`flex items-start text-lg ${theme.textMuted}`}>
@@ -46,9 +46,9 @@ export function Achievements() {
                 <span className={`font-semibold ${theme.brandPrimary}`}>
                   contest rating of 1755
                 </span>{' '}
-                <a href="https://leetcode.com/u/s0oraj/" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} ${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded ml-2`}>
-                  <ExternalLinkIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
-                  Link
+                <a href="https://leetcode.com/u/s0oraj/" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-sm ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-2 py-1 rounded ml-2`}>
+                <ExternalLinkIcon size={12} className={`mr-1.5 ${theme.brandPrimary}`} />
+                Profile
                 </a>
               </p>
             </div>
@@ -72,7 +72,7 @@ export function Achievements() {
             <h3 className={`text-lg ${theme.textBody} font-semibold`}>
               Amazon & IEEE
             </h3>
-            <span className={`text-xs ${theme.brandPrimary}`}>04/2023</span>
+            <span className={`text-sm ${theme.brandPrimary}`}>04/2023</span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
@@ -87,9 +87,9 @@ export function Achievements() {
                     Amazon ML Challenge 2023
                   </span>
                   {' '}
-                  <a href="https://www.kaggle.com/code/umitsahoo/nlp-with-regression/notebook" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded ml-2`}>
-                    <ExternalLinkIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
-                    Python Code
+                  <a href="https://www.kaggle.com/code/umitsahoo/nlp-with-regression/notebook" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-sm ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded ml-2`}>
+                    <ExternalLinkIcon size={14} className={`mr-1 ${theme.brandPrimary}`} />
+                    View Code
                   </a>
                 </p>
               </div>
@@ -107,12 +107,12 @@ export function Achievements() {
                     <span className={`font-semibold ${theme.brandPrimary}`}>IIT Delhi</span>
                   </p>
                   <div className="flex flex-wrap gap-1 mt-1">
-                    <a href="https://ieeexplore.ieee.org/document/10306481" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
-                      <ExternalLinkIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
+                    <a href="https://ieeexplore.ieee.org/document/10306481" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-sm ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+                      <ExternalLinkIcon size={14} className={`mr-1 ${theme.brandPrimary}`} />
                       Publication
                     </a>
-                    <a href="https://drive.google.com/file/d/1JWcyN7JysQWhkED1CN3ktS-hS7UeeoL7/view" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
-                      <ExternalLinkIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
+                    <a href="https://drive.google.com/file/d/1JWcyN7JysQWhkED1CN3ktS-hS7UeeoL7/view" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-sm ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+                      <ExternalLinkIcon size={14} className={`mr-1 ${theme.brandPrimary}`} />
                       View PDF
                     </a>
                   </div>

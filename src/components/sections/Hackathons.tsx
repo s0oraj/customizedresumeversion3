@@ -13,8 +13,8 @@ export function Hackathons() {
             <h3 className={`text-lg ${theme.textBody} font-semibold`}>
               NLP Regression: Amazon Product Length Prediction
             </h3>
-            <a href="https://www.kaggle.com/code/umitsahoo/nlp-with-regression" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
-              <ExternalLinkIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
+            <a href="https://www.kaggle.com/code/umitsahoo/nlp-with-regression" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-sm ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+              <ExternalLinkIcon size={14} className={`mr-1 ${theme.brandPrimary}`} />
               Code
             </a>
           </div>

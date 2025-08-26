@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionTitle } from '../ui/SectionTitle';
-import { ExternalLinkIcon, GithubIcon } from 'lucide-react';
+import { ExternalLinkIcon, GithubIcon, MapPinIcon } from 'lucide-react';
 import { theme } from '../../theme/tailwind-var';
 
 export function Research() {
@@ -8,6 +8,8 @@ export function Research() {
     <div>
       <SectionTitle>Research - Machine Learning</SectionTitle>
       <div className="space-y-4 mt-3">
+
+
         {/* Box 1: University and Role */}
         <div className={`${theme.bgCard} p-4 rounded`}>
           <div className="flex justify-between items-start">
@@ -15,11 +17,20 @@ export function Research() {
               <h3 className={`text-lg ${theme.textBody} font-semibold`}>
                 C.V. Raman Global University
               </h3>
-              <p className={`text-lg ${theme.textMuted}`}>Undergraduate Researcher</p>
+              <div className="flex justify-between items-center">
+                <p className={`text-lg ${theme.textMuted}`}>Undergraduate Researcher</p>               
+              </div>
             </div>
-            <span className={`${theme.brandPrimary} text-xs`}>12/2022 - 06/2023</span>
+            <div className="text-right">
+              <span className={`${theme.brandPrimary} text-sm`}>12/2022 - 06/2023</span>
+              <div className={`flex items-center text-sm ${theme.textMuted} mt-1`}>
+                <MapPinIcon size={12} className="mr-1" />
+                <span>Bhubaneshwar, Odisha</span>
+              </div>
+            </div>
           </div>
         </div>
+
 
         {/* Box 2: Glaucoma Project */}
         <div className={`${theme.bgCard} p-4 rounded`}>
@@ -27,8 +38,8 @@ export function Research() {
             <h3 className={`text-lg ${theme.textBody} font-semibold`}>
               Early-Stage Glaucoma Detection
             </h3>
-            <a href="https://github.com/s0oraj/Early_Stage_Glaucoma_Detection/tree/main" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
-              <GithubIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
+            <a href="https://github.com/s0oraj/Early_Stage_Glaucoma_Detection/tree/main" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-sm ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+              <GithubIcon size={14} className={`mr-1 ${theme.brandPrimary}`} />
               Repo
             </a>
           </div>
@@ -81,12 +92,12 @@ export function Research() {
               Alzheimer's Disease Diagnostic System
             </h3>
             <div className="flex gap-1">
-              <a href="https://ieeexplore.ieee.org/document/10306481" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
-                <ExternalLinkIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
+              <a href="https://ieeexplore.ieee.org/document/10306481" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-sm ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+                <ExternalLinkIcon size={14} className={`mr-1 ${theme.brandPrimary}`} />
                 Paper
               </a>
-              <a href="https://github.com/s0oraj/Alizhiemers_Detection_Transfer_Learning" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
-                <GithubIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
+              <a href="https://github.com/s0oraj/Alizhiemers_Detection_Transfer_Learning" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-sm ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+                <GithubIcon size={14} className={`mr-1 ${theme.brandPrimary}`} />
                 Repo
               </a>
             </div>

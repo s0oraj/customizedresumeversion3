@@ -32,13 +32,13 @@ export function Projects() {
                 </h3>
               </div>
               <div className="flex gap-2">
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-2 py-1 rounded`}>
-                  <ExternalLinkIcon size={10} className={`mr-1 ${theme.brandPrimary}`} />
-                  Demo
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-sm ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-2 py-1 rounded`}>
+                  <ExternalLinkIcon size={14} className={`mr-1 ${theme.brandPrimary}`} />
+                  View Project
                 </a>
                 <a href={project.repo} target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-2 py-1 rounded`}>
-                  <GithubIcon size={10} className={`mr-1 ${theme.brandPrimary}`} />
-                  Repo
+                  <GithubIcon size={14} className={`mr-1 ${theme.brandPrimary}`} />
+                  Source Code
                 </a>
               </div>
             </div>

@@ -14,12 +14,12 @@ export function AndroidDev() {
               Animus - Cryptography Based Social Media App
             </h3>
             <div className="flex gap-1">
-              <a href="https://github.com/s0oraj/Animus" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
-                <ExternalLinkIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
+              <a href="https://github.com/s0oraj/Animus" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-sm ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+                <ExternalLinkIcon size={14} className={`mr-1 ${theme.brandPrimary}`} />
                 Demo
               </a>
-              <a href="https://github.com/s0oraj/animus" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
-                <GithubIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
+              <a href="https://github.com/s0oraj/animus" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-sm ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+                <GithubIcon size={14} className={`mr-1 ${theme.brandPrimary}`} />
                 Repo
               </a>
             </div>
@@ -81,12 +81,12 @@ export function AndroidDev() {
               SangeetAI - Emotion-Based Music Recommender
             </h3>
             <div className="flex gap-1">
-              <a href="https://github.com/s0oraj/SangeetAI" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
-                <ExternalLinkIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
+              <a href="https://github.com/s0oraj/SangeetAI" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-sm ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+                <ExternalLinkIcon size={14} className={`mr-1 ${theme.brandPrimary}`} />
                 Demo
               </a>
-              <a href="https://github.com/s0oraj/SangeetAI" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-xs ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
-                <GithubIcon size={8} className={`mr-1 ${theme.brandPrimary}`} />
+              <a href="https://github.com/s0oraj/SangeetAI" target="_blank" rel="noopener noreferrer" className={`inline-flex items-center text-sm ${theme.bgSubtle} hover:${theme.bgHover} ${theme.textSecondary} px-1.5 py-0.5 rounded`}>
+                <GithubIcon size={14} className={`mr-1 ${theme.brandPrimary}`} />
                 Repo
               </a>
             </div>

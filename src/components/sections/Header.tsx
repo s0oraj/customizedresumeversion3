@@ -75,7 +75,10 @@ export function Header() {
             </div>
             <div className="text-right">
               <span className={`${theme.brandPrimary} text-sm`}>06/2024</span>
-              <p className={`text-xs ${theme.textSubtle} mt-1`}>Bhubaneshwar, Odisha</p>
+              <div className={`flex items-center text-sm ${theme.textMuted} mt-1`}>
+                <MapPinIcon size={12} className="mr-1" />
+                <span>Bhubaneshwar, Odisha</span>
+              </div>
             </div>
           </div>
         </div>

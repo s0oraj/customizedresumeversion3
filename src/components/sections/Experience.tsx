@@ -31,7 +31,7 @@ export function Experience() {
             </div>
             <div className="flex justify-between items-start mb-2">
               <p className={`text-lg ${theme.textSecondary}`}>{exp.position}</p>
-              <div className={`flex items-center text-lg ${theme.textMuted}`}>
+              <div className={`flex items-center text-sm ${theme.textMuted}`}>
                 <MapPinIcon size={12} className="mr-1" />
                 <span>{exp.location}</span>
               </div>
