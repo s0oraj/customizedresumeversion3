@@ -1,48 +1,23 @@
 /* Company Theme Colors - Easy to swap for different companies */
-:root {
+
   /* Primary Brand Colors */
-  --brand-primary: #5DC22D;        /* Main company color (Cohesity green) */
-  --brand-primary-text: #000000;   /* Text color on primary background (black on green) */
+  /* --brand-primary: #5DC22D;    Main company color (Cohesity green) */
+  /* --brand-primary-text: #000000;   /* Text color on primary background (black on green) */
   
   /* Background Colors */
-  --bg-main: #000000;              /* Main page background (black) */
-  --bg-card: #1f2937;              /* Card backgrounds (gray-900) */
-  --bg-hover: #374151;             /* Hover states (gray-700) */
-  --bg-accent: #111827;            /* Accent backgrounds (gray-800) */
+  /* --bg-main: #000000;               /* Main page background (black) */
+  /* --bg-card: #1f2937;           /* Card backgrounds (gray-900) */
+  /* --bg-hover: #374151;        /* Hover states (gray-700) */
+  /* --bg-accent: #111827;        /* Accent backgrounds (gray-800) */
   
   /* Text Colors */
-  --text-primary: #f9fafb;         /* Primary text (gray-100) */
-  --text-secondary: #e5e7eb;       /* Secondary text (gray-200) */
-  --text-tertiary: #d1d5db;        /* Tertiary text (gray-300) */
-  --text-muted: #9ca3af;           /* Muted text (gray-400) */
-  --text-subtle: #6b7280;          /* Subtle text (gray-500) */
+  /*  --text-primary: #f9fafb;     /* Primary text (gray-100) */
+  /*  --text-secondary: #e5e7eb;   /* Secondary text (gray-200) */
+  /*  --text-tertiary: #d1d5db;        /* Tertiary text (gray-300) */
+  /*  --text-muted: #9ca3af;         /* Muted text (gray-400) */
+/*   --text-subtle: #6b7280;          /* Subtle text (gray-500) */
   
   /* Border Colors */
-  --border-primary: #1f2937;       /* Main borders (gray-800) */
-  --border-accent: #374151;        /* Accent borders (gray-700) */
-}
+/*  --border-primary: #1f2937;     /* Main borders (gray-800) */
+/*   --border-accent: #374151;       /* Accent borders (gray-700) */
 
-/* 
-COMPANY THEME EXAMPLES:
-Just replace the values above for different companies
-
-AMAZON:
---brand-primary: #FF9900;
---bg-main: #232F3E;
---bg-card: #37475A;
-
-GOOGLE:
---brand-primary: #4285F4;
---bg-main: #1a1a1a;
---bg-card: #2d2d2d;
-
-MICROSOFT:
---brand-primary: #0078D4;
---bg-main: #1e1e1e;
---bg-card: #2d2d30;
-
-NETFLIX:
---brand-primary: #E50914;
---bg-main: #141414;
---bg-card: #2f2f2f;
-*/

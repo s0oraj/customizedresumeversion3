@@ -6,25 +6,25 @@ Just change the hex values below for different companies
 
 :root {
   /* === BRAND & ACCENT COLORS === */
-  --resume-accent-primary: #5DC22D;        /* Main highlight color (currently Cohesity green) */
-  --resume-accent-on-primary: #000000;     /* Text color on accent background */
+  --resume-accent-primary: #5DC22D;        /* Main company color (Cohesity green) */
+  --resume-accent-on-primary: #000000;     /* Text color on accent background. Text color on primary background (black on green) */
   
   /* === BACKGROUND COLORS === */
-  --resume-bg-page: #000000;               /* Main page/body background */
-  --resume-bg-section: #1f2937;           /* Section/card backgrounds */
-  --resume-bg-hover: #374151;             /* Hover states for interactive elements */
-  --resume-bg-subtle: #111827;            /* Subtle background accents */
+  --resume-bg-page: #000000;               /* Main page/body background. Main page background (black) */
+  --resume-bg-section: #1f2937;           /* Section/card backgrounds. Card backgrounds (gray-900) */
+  --resume-bg-hover: #374151;             /* Hover states for interactive elements. Hover states (gray-700) */
+  --resume-bg-subtle: #111827;            /* Subtle background accents. Accent backgrounds (gray-800) */
   
   /* === TEXT COLORS === */
-  --resume-text-heading: #f9fafb;         /* Main headings and titles */
-  --resume-text-body: #e5e7eb;            /* Regular body text */
-  --resume-text-secondary: #d1d5db;       /* Secondary information */
-  --resume-text-muted: #9ca3af;           /* Less important text */
-  --resume-text-subtle: #6b7280;          /* Very subtle text (dates, etc.) */
+  --resume-text-heading: #f9fafb;         /* Main headings and titles. Primary text (gray-100) */
+  --resume-text-body: #e5e7eb;            /* Regular body text. Secondary text (gray-200) */
+  --resume-text-secondary: #d1d5db;       /* Secondary information. Tertiary text (gray-300) */
+  --resume-text-muted: #9ca3af;           /* Less important text. Muted text (gray-400) */
+  --resume-text-subtle: #6b7280;          /* Very subtle text (dates, etc.). Subtle text (gray-500) */
   
   /* === BORDER COLORS === */
-  --resume-border-primary: #1f2937;       /* Main section dividers */
-  --resume-border-accent: #374151;        /* Accent borders */
+  --resume-border-primary: #1f2937;       /* Main section dividers. Main borders (gray-800) */
+  --resume-border-accent: #374151;        /* Accent borders. Accent borders (gray-700) */
 }
 
 /* 
